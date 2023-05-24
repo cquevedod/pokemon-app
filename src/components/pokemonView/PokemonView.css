@@ -1,0 +1,85 @@
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: #ffffff;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 48%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  margin-left: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.slider-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slider-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slider-group input[type="range"] {
+  width: 100%;
+  color: #6658f6;
+}
+
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.button-section .button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-section button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.icon-diskette:before {
+  content: "💾";
+  margin-right: 5px;
+}
+
+.icon-x:before {
+  content: "❌";
+  margin-right: 5px;
+}

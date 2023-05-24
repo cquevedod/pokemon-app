@@ -1,0 +1,46 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: #c7d0d2;
+  border-style: solid;
+  background-color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: #c7d0d2;
+  border-style: solid;
+}
+
+.table td.actions-cell,
+.table td.image-cell {
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.edit-button,
+.delete-button {
+  margin-right: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  font-size: 18px;
+}
+
+td .edit-button:hover,
+td .delete-button:hover {
+  color: #6658f6;
+}
